@@ -39,6 +39,9 @@ public class DesignTacoController {
 		return "design";
 	}
 
-	
+	private Object filterByType(List<Ingredient> ingredients, Type type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

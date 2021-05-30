@@ -3,10 +3,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 @Data
-@RequiredArgsConstructor
-@AllArgsConstructor
+//@RequiredArgsConstructor
+//@AllArgsConstructor
 public class Ingredient {
 	
+public Ingredient(String id, String name, Type type) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.type = type;
+	}
+
 private  String id;
 private  String name;
 private  Type type;
